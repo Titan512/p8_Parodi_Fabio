@@ -1,0 +1,1 @@
+Globally, it is always the case that if ({Tdistance} < 3000), then ({Tapproaching} = 1) eventually holds.

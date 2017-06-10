@@ -1,0 +1,1 @@
+Globally, it is always the case that if ({Tapproaching} = 1), then ({Gopen} = 0) eventually holds.

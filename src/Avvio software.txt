@@ -1,0 +1,4 @@
+per avviare il software:
+
+-digitare a terminale "python Translate.py"
+su Linux: "python3 Translate.py"

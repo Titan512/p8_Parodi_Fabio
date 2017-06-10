@@ -1,0 +1,13 @@
+If IN
+{Tapproaching} SIG
+is VBZ
+1 VT
+, EP
+then RB
+{Gopen} SIG
+shall MD
+{Req6} REQ
+be VB
+set VBN
+to TO
+0 VT

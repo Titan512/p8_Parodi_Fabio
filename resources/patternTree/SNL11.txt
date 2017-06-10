@@ -1,0 +1,1 @@
+Globally, it is always the case that if ({Tdistance} > 10000), then ({Tin} = 0) eventually holds.

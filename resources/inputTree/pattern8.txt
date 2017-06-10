@@ -1,0 +1,2 @@
+(ROOT (SBAR (IN After) (S (NP (SIG {SIGNAL})) (VP (VBZ becomes) (ADJP (VT VALUE))))) (EP ,) (SBAR (WHADVP (WRB when)) (S (NP (SIG {SIGNAL})) (VP (VBZ is) (ADJP (QT (JJR greater) (IN than) (VT VALUE)))))) (EP ,) (NP (SIG {SIGNAL})) (VP (MD shall) (PRN (NP (REQ {Req}))) (VP (VB be) (VP (VBN set) (PP (TO to) (ADJP (VT VALUE)))))) (EP .))
+

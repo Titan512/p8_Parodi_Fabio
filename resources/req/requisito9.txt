@@ -1,0 +1,14 @@
+If IN
+{Tleave} SIG
+is VBZ
+1 VT
+, EP
+then RB
+{Gopen} SIG
+shall MD
+{Req9} REQ
+be VB
+set VBN
+to TO
+1 VT
+. EP

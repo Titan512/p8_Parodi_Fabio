@@ -1,0 +1,23 @@
+per avviare il test strutturale:
+
+-scaricare coverage per python
+digitare a terminale "pip install coverage"
+
+NOTA: in caso di errore su linux provare 
+"pip3 install coverage"
+
+
+
+-avviare suitcase.py
+digitare a terminale "python suitcase.py"
+
+NOTA: in caso di errore su linux provare 
+"python3 suitcase.py"
+
+
+
+
+
+NOTA: il test strutturale della classe AbsolutePath
+non raggiunge il 100% perchè il computer ha un SO Linux
+oppure ha un SO Windows.

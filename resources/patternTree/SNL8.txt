@@ -1,0 +1,1 @@
+After ({Tin} = 1), it is always the case that if ({Tdistance} > 3000), then ({Tleave} = 1) eventually holds.

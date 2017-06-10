@@ -1,0 +1,2 @@
+(ROOT (SBAR (IN If) (S (NP (SIG {SIGNAL})) (VP (VBZ is) (ADJP (QT (JJR less) (IN than) (VT VALUE)))))) (EP ,) (NP (SIG {SIGNAL})) (VP (MD shall) (PRN (NP (REQ {Req}))) (VP (VB be) (VP (VBN set) (PP (TO to) (ADJP (VT VALUE)))))) (EP .))
+

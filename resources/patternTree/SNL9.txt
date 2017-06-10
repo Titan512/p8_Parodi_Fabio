@@ -1,0 +1,1 @@
+Globally, it is always the case that if ({Tleave} = 1), then ({Gopen} = 1) eventually holds.

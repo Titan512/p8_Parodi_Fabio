@@ -1,0 +1,1 @@
+After ({Power-up} = 1), ({Tapproaching} = 0) eventually holds.

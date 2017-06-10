@@ -1,0 +1,1 @@
+Globally, it is always the case that if ({Tdistance} > 10000), then ({Tapproaching} = 0) eventually holds.

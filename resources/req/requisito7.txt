@@ -1,0 +1,15 @@
+If IN
+{Tdistance} SIG
+is VBZ
+less JJR
+than IN
+1000 VT
+, EP
+{Tin} SIG
+shall MD
+{Req7} REQ
+be VB
+set VBN
+to TO
+1 VT
+. EP

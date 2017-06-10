@@ -1,0 +1,15 @@
+When WRB
+{Tdistance} SIG
+is VBZ
+less JJR
+than IN
+3000 VT
+, EP
+{Tapproaching} SIG
+shall MD
+{Req5} REQ
+be VB
+set VBN
+to TO
+1 VT
+. EP

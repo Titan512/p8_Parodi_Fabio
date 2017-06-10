@@ -1,0 +1,15 @@
+per avviare il test funzionale:
+
+
+-avviare suitcase.py
+digitare a terminale "python suitcase.py"
+su linux: "python3 suitcase.py"
+
+
+NOTA: essendo un confronto probabilistico, non è detto il
+raggiungimento del 100% dei match tra alberi.
+
+Nel dettaglio il requisito 5 è l'unico che presenta
+l'informazione "is less than". Quindi, testando questo
+requisito (e rimuovendolo dal training set), non è possibile
+trovare l'informazione "SIGNAL is less than VALUE"

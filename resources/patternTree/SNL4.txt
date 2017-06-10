@@ -1,0 +1,1 @@
+After ({Power-up} = 1), ({Gopen} = 1) eventually holds.

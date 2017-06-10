@@ -1,0 +1,12 @@
+After IN
+{Power-up} SIG
+becomes VBZ
+1 VT
+, EP
+{Gopen} SIG
+shall MD
+{Req4} REQ
+be VB
+set VBN
+to TO
+1 VT

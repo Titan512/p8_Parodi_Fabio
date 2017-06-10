@@ -1,0 +1,117 @@
+In seguito ad alcune consultazioni, io ed i miei colleghi abbiamo deciso di sviluppare
+le nostre parti in totale indipendenza l'uno dall'altra per fini d'esame.
+Questo si è tradotto in non avere un passaggio di alberi sintattici già inizializzati.
+Molte delle aggiunte sono legate proprio all inizializzazione di un oggetto albero
+a partire da una stringa contenente l'insieme di tag e delle parole.
+
+L'utente non dovrà più quindi inserire l'albero sintattico manualmente
+ma sceglierne uno tra quelli a disposizione.
+
+
+
+
+
+AGGIUNTE:
+Funzione"AbsolutePath":
+	aggiunta funzione getAbsolutePath in seguito ad alcuni errori
+	sorti durante la gestione di indirizzi relativi.
+	Crea dinamicamente l'indirizzo assoluto e gestisce la differenza
+	di scrittura degli indirizzi tra Windows e Linux
+	--->NON PRESENTERA' IL 100% DI COPERTURA STRUTTURALE
+
+
+
+
+
+Classe "InputTree":
+
+-loadTreeFromFile(fileDir,fileTokenList)
+	funzione che, dato un file "fileDir" contenente la stringa         rappresentante l'albero
+	sintattico e un file opzionale "fileTokenList", contenente la lista         delle parole
+	presenti nel requisito analizzato, crea il nodo radice, nodi figli         e gestisce i metadati associati.
+	[INIZIALIZZAZIONE DELL'ALBERO]
+
+-printTree()
+	funzione creata per ragioni di debugging.
+	riporta l'albero nel suo formato a stringa.
+	[DEBUGGING]
+
+
+
+
+
+
+
+
+Classe "Tree":
+
+-createNode(node,string,integerPos)
+	funzione ricorsiva che, data la stringa e la posizione dell'ultimo         carattere 
+	letto, crea un nodo contenente il tag rilevato.
+	[INIZIALIZZAZIONE DELL'ALBERO]
+
+-createEasyNode(node, string, integerPos)
+	funzione che, data la stringa e la posizione dell'ultimo carattere letto,
+	crea un nodo contenente la parola rilevata.
+	[INIZIALIZZAZIONE DELL'ALBERO]
+
+
+
+
+
+
+
+Classe "LogicalBranch":
+
+-calculateProbability(numberOfMatches, numberInputLeafInBranch, numberLeafInPatternBranch) 
+	definito metodo per il calcolo delle probabilità basato su rapporto dei match 
+	correttamente eseguiti rispetto al massimo numero di foglie presenti.
+	Precedentemente non definita, creata in seguito a numerosi test
+	[CALCOLO % MATCHING]
+
+-calculateLeafUnderThisNode():
+	funzione che calcola il numero di nodi Leaf presenti sotto
+	questa foglia.
+	Creata in funzione del calcolo della % di matching.
+	[CALCOLO % MATCHING]
+
+-printChild()
+	funzione per stampare a terminale il contenuto del nodo e dei suoi figli
+	[DEBUGGING]
+
+
+
+
+
+
+Classe "Leaf":
+-printChild()
+	funzione per stampare a terminale il contenuto del nodo e dei suoi         figli
+	[DEBUGGING]
+
+-calculateLeafUnderThisNode():
+	funzione che calcola il numero di nodi Leaf presenti sotto
+	questa foglia.
+	Creata in funzione del calcolo della % di matching.
+	[CALCOLO % MATCHING]
+
+NOTA: funzioni non riportate nella classe "Node" per questioni legate
+alla gestione degli attributi in python (variabili presenti solo
+al momento della chiamata del costruttore).
+Non era quindi possibile far gestire alla classe "Nodo" la lista
+di figli delle classi sottoposte [veniva vista come vuota]
+
+
+
+
+
+
+
+Classe "Translation":
+-convertePatternInString(list):
+	funzione per convertire la lista di token rappresentante
+	il Formal Specification Pattern risultante dal processo di
+	traduzione in stringa, per una maggiore visualizzazione dei
+	risultati a video
+	[LEGATO ALL'ESAME DI SOFTWARE ENGINEERING]
+

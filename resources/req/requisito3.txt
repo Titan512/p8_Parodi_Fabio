@@ -1,0 +1,13 @@
+After IN
+{Power-up} SIG
+becomes VBZ
+1 VT
+, EP
+{Tleave} SIG
+shall MD
+{Req3} REQ
+be VB
+set VBN
+to TO
+0 VT
+. EP
